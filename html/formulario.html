@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Cadastro</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-cadastro">
+        </div>
+
+        <h1>Cadastro do Cliente</h1>
+
+        <form class="petshop-forma" onsubmit="return validateForm (event)">
+            <div class="forma-dos-grupos">
+                <label>Nome Completo</label>
+                <br>
+                <input type="nome" name="nome" required>
+            </div>
+
+            <div class="forma-dos-grupos">
+                <label>E-mail</label>
+                <br>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="forma-dos-grupos">
+                <label>Telefone</label>
+                <br>
+                <input type="tel" name="telefone" required>
+            </div>
+
+            <div class="forma-dos-grupos">
+                <label>Endereço</label>
+                <br>
+                <input type="text" name="endereco" required>
+            </div>
+
+            <div class="pet-info">
+                <h2>Informações do Pet</h2>
+                
+                <div class="forma-dos-grupos">
+                    <label>Nome do Pet</label>
+                    <br>
+                    <input type="text" name="nomePet" required>
+                </div>
+
+                <div class="forma-dos-grupos">
+                    <label>Espécie</label>
+                    <br>
+                    <select name="especie" required>
+                        <option value="">Selecione</option>
+                    
+                        <option value="cao">Cão</option>
+                        
+                        <option value="gato">Gato</option>
+                    
+                        <option value="passaro">Pássaro</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Raça</label>
+                    <br>
+                    <input type="text" name="raca">
+                </div>
+
+                <div class="form-group">
+                    <label>Idade</label> 
+                    <br>
+                    <input type="text" name="idade">
+                </div>
+
+                <div class="form-group">
+                    <label>Observações</label>
+                    <br>
+                    <textarea name="observacoes" rows="4"></textarea>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+        </form>
+        <br><br>
+    </div> 
+
+    
+         <a class="voltar" href="index.html">inicio </a>
+    
+    <div class="planos">
+        <a href="/html/assinatura.html" class="planos1">PLANOS</a>
+    </div>
+</body>
+</html>

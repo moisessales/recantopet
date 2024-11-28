@@ -1,0 +1,169 @@
+body{
+background: linear-gradient(135deg,rgb(3, 137, 226), rgb(3, 113, 187), rgb(7, 8, 88)  )}
+
+
+.img2{
+    border-radius: 360px;
+    position: relative;
+    left: 700px;
+    top: 40px;
+}
+
+  
+
+ul{
+    list-style-type: none;    
+    justify-content: space-between;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.lformulario{
+    
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb(5, 6, 45);
+    color: #8f5f29;
+    border: 2px solid #8f5f29;
+    position: relative;
+    top: 40px;
+    transition: ease-in-out 0.5s;
+}   
+
+.lcontato{
+    border: 2px solid #8f5f29;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb( 5, 6, 45);
+    color: #8f5f29;
+    position: relative;
+    left: -40px;
+    top: 40px;
+    transition: ease-in-out 0.5s;
+    
+}
+.lformulario:hover{
+    padding: 15px;
+    border-radius: 15px;
+    background-color:rgb(5, 6, 45);
+    color: #8f5f29;
+    border: 2px solid #8f5f29;
+    position: relative;
+    top: 40px;
+    box-shadow: 0 0 5px rgba(255, 228, 228, 0.719);
+}
+.lcontato:hover{
+    border: 2px solid #8f5f29;
+    padding: 15px;
+    border-radius: 15px;
+    background-color:rgb( 5, 6, 45);
+    color: #8f5f29;
+    position: relative;
+    left: -40px;
+    top: 40px;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 0 5px rgba(255, 228, 228, 0.719);
+}
+nav{
+    border: 3px solid #8f5f29;
+    background-color:rgb( 5, 6, 45);
+    border-radius: 15px;
+    box-shadow: 0 0 2px rgba(255, 228, 228, 0.719);
+}
+h1{
+    color: #8f5f29;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    
+    
+}
+.containe{
+    border-radius: 20px;
+    padding: 35px;
+    border: 2px solid #8f5f29;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 600px;
+    background-color: rgb(5, 6, 45) ;
+    box-shadow: 0 0 15px rgb(0, 0, 0.1);
+    
+    
+    
+
+}
+
+h2{
+    color:#8f5f29;
+    height: 400px;
+  
+}
+
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.produto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.produto .preco {
+    font-size: 20px;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.produto button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.produto button:hover {
+    background-color: #2ecc71;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

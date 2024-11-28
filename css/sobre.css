@@ -1,0 +1,15 @@
+    .container{
+        border-radius: 20px;
+        padding: 35px;
+        border: 2px solid blue;
+        width: 600px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        left: 600px;
+        
+        
+
+    }
+
+    
